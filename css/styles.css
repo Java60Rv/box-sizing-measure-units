@@ -1,5 +1,10 @@
 .box{
     border: 3px solid orange;
-    width: 50%;
-    height: 100%;
+    font-size: 30px;
+    width: 10em;
+    height: 10em;
+    box-sizing: border-box;
 }
+/* absolute sizes: px
+relative sizes: vw, vh, %, rem, em 
+1 em = 16px default */
