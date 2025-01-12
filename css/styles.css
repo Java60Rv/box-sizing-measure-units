@@ -1,8 +1,11 @@
+html{
+    font-size: 62.5%;
+}
 .box{
     border: 3px solid orange;
-    font-size: 30px;
-    width: 10em;
-    height: 10em;
+    font-size: 5rem;
+    width: 16em;
+    height: 16em;
     box-sizing: border-box;
 }
 /* absolute sizes: px
