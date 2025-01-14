@@ -1,21 +1,19 @@
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
-.box{
-    border: 3px solid orange;
-    font-size: 5rem;
-    width: 16em;
-    height: 16em;
-    box-sizing: border-box;
-    
-   
+.gallery--item{
+    border: 4px solid lightgray;
+    border-radius: 40px;
+    width: 20rem;
 }
-/* absolute sizes: px
-relative sizes: vw, vh, %, rem, em 
-1 em = 16px default
-
- overflow: hidden; - hides the content that is outside the box
-    overflow: scroll; - adds a scrollbar to the box
-    overflow: auto; - adds a scrollbar only when needed
-
-*/
+.gallery--item_title{
+    display: block;
+    font-size: 2rem;
+    width: 20rem;
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+}
+.gallery{
+    list-style: none;
+}
